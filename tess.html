@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer Store</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Lucifer Store</h1>
+        <nav>
+            <a href="#Home">Home</a> |
+            <a href="#Price">Price</a> |
+            <a href="#Order">Order</a> |
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="Home">
+            <h2 class="center">Selamat Datang di Lucifer Store</h2>
+            <img src="pubg-full-screen-the-throne-zn8zmau3jmqa178x.jpg" alt="Lucifer Store" width="400">
+            <p class="center">Top-Up <b>Unknown Cash (UC)</b> terpercaya! Proses <i>instan</i> langsung masuk kurang dari <u>1 menit</u>.
+            </p>
+        </section>
+
+        <br>
+
+        <section id="Price">
+            <h2>Harga UC Region Indo</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Jumlah UC</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>60 UC</td>
+                        <td>Rp 15.000</td>
+                    </tr>
+                    <tr>
+                        <td>300 + <b>25 UC (Bonus)</b></td>
+                        <td>Rp 75.000</td>
+                    </tr>
+                    <tr>
+                        <td>600 + <b>60 UC (Bonus)</b></td>
+                        <td>Rp 150.000</td>
+                    </tr>
+                    <tr>
+                        <td>1500 + <b>300 UC (Bonus)</b></td>
+                        <td>Rp 375.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="center"><small>* Harga dapat berubah sewaktu-waktu mengikuti kebijakan game.</small></p>
+        </section>
+
+        <br>
+
+        <section id="Order">
+            <h3>Cara Order</h3>
+            <ol>
+                <li>Pilih paket yang ingin Anda beli</li>
+                <li>Masukkan <i>User ID </i>(UID) akun Anda</li>
+                <li>Lakukan pembayaran sesuai metode pilihan</li>
+                <li>UC akan masuk otomatis ke akun Anda</li>
+            </ol>
+
+            <form action="Order.html">
+                <fieldset>
+                    <legend><b>Formulir Order</b></legend>
+
+                    <label for="id">UID Akun:</label><br>
+                    <input type="text" id="id" name="id" required placeholder="Ex: 12345678"><br><br>
+
+                    <label for="JumlahUC">Masukkan Jumlah UC:</label><br>
+                    <input type="number" id="JumlahUC" name="JumlahUC" required placeholder="Ex: 12000"><br><br>
+
+                    <label for="Voucher">Kode Voucher (Opsional):</label><br>
+                    <input type="text" id="Voucher" name="Voucher" placeholder="KODEPROMO"><br><br>
+
+                    <label for="Payment">Metode Pembayaran:</label><br>
+                    <select id="Payment" name="Payment" required>
+                        <option value="">-- Pilih Pembayaran --</option>
+                        <option value="Gopay">Gopay</option>
+                        <option value="Dana">Dana</option>
+                        <option value="OVO">OVO</option>
+                        <option value="BNI">BNI</option>
+                    </select><br><br>
+
+                    <label for="Email">Alamat Email:</label><br>
+                    <input type="email" id="Email" name="Email" placeholder="nama@email.com"><br><br>
+
+                    <input type="checkbox" id="saveinfo" name="saveinfo" value="Yes">
+                    <label for="saveinfo">Simpan informasi game untuk transaksi selanjutnya</label><br><br>
+
+                    <input type="checkbox" id="promo" name="promo" value="Yes">
+                    <label for="promo">Saya ingin menerima info promo via email</label><br><br>
+
+                    <button type="submit"><b>Pesan Sekarang</b></button>
+                </fieldset>
+
+                <section id ="Contact">
+                    <h3>Kontak Kami</h3>
+                    <p>Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami:</p>
+                    <ul>
+                        <li>WhatsApp: 0812-3456-7890</li>
+                        <li>Instagram: @luciferstore</li>
+                    </ul>
+                </section>
+        </section>
+    </main>
+
+    <br>
+    <hr>
+    <footer>
+        <p align="center">Copyright &copy; 2026 <strong>Lucifer Store</strong>. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
